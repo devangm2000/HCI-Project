@@ -1,0 +1,66 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+  padding-left: 14px;
+}
+.header-right {
+  float: right;
+}
+#func{
+  color: white;
+}
+h1 {
+	padding-top: 10px;
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+.column {
+  float: left;
+  width: 33%;
+  padding: 2px;
+  border-radius: 50%;
+}
+main{
+  padding-bottom: 14px;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#abcd{
+	
+	padding-left: 20px;
+	width:  50px;
+    height: 300px;
+}
+.container{
+	padding-top: 14px;
+}
+.jumbotron{
+  background-image: url("C:\\Users\\Devang Mehrotra\\Desktop\\HCI Project\\pictures\\aboutus.png");
+  background-size:cover;
+  height: 400px;
+  text-align: center;
+}
